@@ -1,0 +1,23 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.links span {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 8px;
+  background-color: #c4c4c4;
+  border-radius: 15px;
+  color: #4d194d;
+}
+.links p {
+  font-size: 38px;
+  margin-left: 15px;
+  color: #c4c4c4;
+}
+.links a {
+  margin-right: 15px;
+  color: #c4c4c4;
+  font-size: 18px;
+}

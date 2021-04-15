@@ -1,0 +1,26 @@
+.header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.logo span {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 8px;
+  background-color: #c4c4c4;
+  border-radius: 15px;
+  color: #4d194d;
+}
+.logo p {
+  font-size: 38px;
+  margin-left: 15px;
+  color: #c4c4c4;
+}

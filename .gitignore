@@ -1,0 +1,5 @@
+wwyt-ui/node_modules
+wwyt-ui/yarn.lock
+venv
+.idea
+**__init__.py
