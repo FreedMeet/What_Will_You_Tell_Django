@@ -1,9 +1,16 @@
-.links {
+.header {
+  padding: 15px 0 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.logo {
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
-.links span {
+.logo span {
   font-size: 45px;
   font-weight: bold;
   padding: 8px;
@@ -11,13 +18,8 @@
   border-radius: 15px;
   color: #4d194d;
 }
-.links p {
+.logo p {
   font-size: 38px;
   margin-left: 15px;
   color: #c4c4c4;
-}
-.links a {
-  margin-right: 15px;
-  color: #c4c4c4;
-  font-size: 18px;
 }

@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import classes from './Header.module.css'
 
 export const Header: FC = () => {
+
     return (
         <div className={classes.header}>
             <div className={classes.logo}>

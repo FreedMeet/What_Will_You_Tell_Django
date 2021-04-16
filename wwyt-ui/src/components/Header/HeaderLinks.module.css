@@ -1,17 +1,9 @@
-.header {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
-}
-.logo {
+.links {
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
-.logo span {
+.links span {
   font-size: 45px;
   font-weight: bold;
   padding: 8px;
@@ -19,8 +11,18 @@
   border-radius: 15px;
   color: #4d194d;
 }
-.logo p {
+.links p {
   font-size: 38px;
   margin-left: 15px;
   color: #c4c4c4;
+}
+.links a {
+  margin-right: 15px;
+  color: #c4c4c4;
+  font-size: 18px;
+}
+.isActive{
+  color: #006466!important;
+  border-bottom: 1px solid #006466;
+  transition: .5s;
 }
